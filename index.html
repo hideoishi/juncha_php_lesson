@@ -1,3 +1,12 @@
+<?php
+	$loginid = $_POST['loginid'];
+	$password = $_POST['password'];
+
+	// echo $loginid;
+	// echo $password;
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,15 +22,10 @@
 	<?php require('header.inc'); ?>
 	<main>
 		
-		<?php //require('sidemenu.inc'); ?>
+		<?php require('sidemenu.inc'); ?>
 
 		<div class="main_contents">
-			<h1>ログイン画面</h1>
-			<form action="login_controller.php" method="post">
-				ログインID：<input type="text" name="loginid">
-				パスワード：<input type="password" name="password">
-				<input type="submit" name="login" value="ログイン">
-			</form>
+			<h1>こんにちは！！！！</h1>
 
 		</div>
 	</main>
